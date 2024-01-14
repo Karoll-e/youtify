@@ -32,4 +32,4 @@ python main.py https://www.youtube.com/watch?v=dQw4w9WgXcQ --output C:\Users\kar
 Feel free to contribute to this project. If you find any issues or have suggestions, please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) - see the LICENSE file for details.
