@@ -11,7 +11,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from logger_config import log
 
 
-class MusicDownloader:
+class Youtify:
     FILE_EXTENSION = ".mp3"
 
     def __init__(self, output_path):
@@ -106,7 +106,7 @@ def run_application():
     )
     args = parser.parse_args()
 
-    downloader = MusicDownloader(args.output)
+    downloader = Youtify(args.output)
     downloader.process_playlist_uri(args.uri)
 
 
